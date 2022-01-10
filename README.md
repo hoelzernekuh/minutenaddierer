@@ -1,14 +1,9 @@
 # minutenaddierer
-def uhrzeit_minuten_addieren(stunden, minuten, summand): 
-#################################################################
-    while minuten+summand>=60:
-        minuten=minuten-60
-        stunden=stunden+1
-    while stunden>=24:
-        stunden=stunden-24
-    print(str(stunden) +":" + str(minuten+summand))
-#################################################################
-uhrzeit_minuten_addieren(17, 32, 8) # 17:32 + 8 Min = 17:40
-uhrzeit_minuten_addieren(19, 7, 63) # 19:07 + 63 Min = 20:10
-uhrzeit_minuten_addieren(16, 10, 1111) # 16:10 + 1111 Min = 10:41
+![image](https://user-images.githubusercontent.com/97455416/148789384-948379ac-b087-4822-904b-33ab8d20c18f.png)
+Das Programm addiert Minuten zu einer gegeben Zeit.
+##Features
 
+
+
+##Reflexion
+Ich habe gelernt wie man Programme schreibt oder gewisse Befehle macht. Ich "kann" jetz Conditionals, Python, Variabeln usw. Ich habe etwas allgemeinwissen gesammelt.
